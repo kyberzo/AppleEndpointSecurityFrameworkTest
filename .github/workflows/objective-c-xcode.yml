@@ -18,5 +18,4 @@ jobs:
         env:
           scheme: ${{ 'default' }}
         run: |
-          if [ $scheme = default ]; then scheme=$(cat default); fi
-          xcodebuild clean build analyze -scheme "$scheme" -project /Users/runner/work/AppleEndpointSecurityFrameworkTest/src/MyEndPoint/MyEndPoint.xcodeproj | xcpretty && exit ${PIPESTATUS[0]}
+          xcodebuild clean build analyze -scheme default -project /Users/runner/work/AppleEndpointSecurityFrameworkTest/src/MyEndPoint/MyEndPoint.xcodeproj | xcpretty && exit ${PIPESTATUS[0]}
