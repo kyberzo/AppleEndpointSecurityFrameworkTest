@@ -18,4 +18,4 @@ jobs:
         env:
           scheme: ${{ 'default' }}
         run: |
-          xcodebuild clean build analyze -scheme default -project /Users/runner/work/AppleEndpointSecurityFrameworkTest/AppleEndpointSecurityFrameworkTest/src/MyEndPoint/MyEndPoint.xcodeproj | xcpretty && exit ${PIPESTATUS[0]}
+          xcodebuild clean build analyze -project /Users/runner/work/AppleEndpointSecurityFrameworkTest/AppleEndpointSecurityFrameworkTest/src/MyEndPoint/MyEndPoint.xcodeproj | xcpretty && exit ${PIPESTATUS[0]}
