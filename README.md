@@ -70,7 +70,7 @@ A minimal macOS Cocoa application that serves as the container for the system ex
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/AppleEndpointSecurityFrameworkTest.git
+git clone https://github.com/kyberzo/AppleEndpointSecurityFrameworkTest.git
 cd AppleEndpointSecurityFrameworkTest
 ```
 
